@@ -1,8 +1,9 @@
-const   express = require('express'),
-        path = require('path'),
-        app = express();
+const express = require('express'),
+      app = express();
 
-const   mdblog = require('./lib/mdblog');
+const setting = require('./setting'),
+      mdblog = require('./lib/mdblog');
 
-app.use('/', mdblog);
-app.listen(80);
+app.use(setting.BLOG_ROOT_URL, mdblog);
+
+app.listen(setting.BLOG_PORT);
