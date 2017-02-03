@@ -1,0 +1,68 @@
+.mdblog-markdown {
+    margin: 10px;
+}
+
+    .mdblog-markdown h1 {
+        text-align: center;
+    }
+
+    .mdblog-markdown h2 {
+        border-bottom: 1px #333 dashed;
+    }
+
+    .mdblog-markdown h1,
+    .mdblog-markdown h2,
+    .mdblog-markdown h3,
+    .mdblog-markdown h4,
+    .mdblog-markdown h5 {
+        margin: 10px 0px 10px 0px;
+    }
+
+    .mdblog-markdown ul, ol {
+        margin-left: 20px;
+        line-height: 150%;
+    }
+
+    .mdblog-markdown p {
+        line-height: 150%;
+    }
+
+    .mdblog-markdown code {
+        padding: 1%;
+        margin: 10px 0px 10px 0px;
+        display: inline-block;
+        width: 98%;
+        background: #333;
+        color: #EFEFEF;
+        border-radius: 5px;
+        font-family: Consolas, Menlo, Courier New !important;
+    }
+
+    .mdblog-markdown a {
+        color: rgb(100, 92, 255);
+    }
+
+    .mdblog-markdown a:hover {
+        color: rgb(169, 161, 255);
+    }
+
+    .mdblog-markdown table {
+        border-collapse: collapse;
+    }
+
+    .mdblog-markdown table th, .mdblog-markdown table td {
+        min-width: 80px;
+        line-height: 150%;
+        padding: 10px;
+        border: 1px #333 solid;
+    }
+
+    .mdblog-markdown table th {
+        background: #CCC;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .mdblog-markdown table td {
+        background: #FFF;
+    }
