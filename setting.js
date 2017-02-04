@@ -43,6 +43,8 @@ exports.SCRIPT_GLOBAL_FILES = ['default.js'];
 
 exports.SCRIPT_GLOBAL_HEAD_FILES = [];
 
+exports.VERSION = 'v1.1.0';
+
 exports.PATH_TO_URI = function (originPath) {
     return encodeURIComponent(
         originPath.replace(this.BLOG_DIR, this.BLOG_ROOT_URL)

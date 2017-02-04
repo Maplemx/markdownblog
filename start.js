@@ -2,8 +2,8 @@ const express = require('express'),
       app = express();
 
 const setting = require('./setting'),
-      mdblog = require('./lib/mdblog');
+      markdownblog = require('./lib/markdownblog');
 
-app.use(setting.BLOG_ROOT_URL, mdblog);
+app.use(setting.BLOG_ROOT_URL, markdownblog);
 
 app.listen(setting.BLOG_PORT);
