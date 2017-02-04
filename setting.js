@@ -1,10 +1,10 @@
 const path = require('path');
 
-exports.BLOG_PORT = 3000;
+exports.BLOG_PORT = 80;
 
 exports.BLOG_ROOT_URL = '/';
 
-//exports.BLOG_HOME_REDIRECT = '/首页';
+exports.BLOG_HOME_REDIRECT = '/首页';
 
 exports.BLOG_DIR = path.resolve(__dirname, './blogs/');
 
@@ -12,11 +12,11 @@ exports.BLOG_PUBLISH_MARK = 'pub';
 
 exports.BLOG_ATTACHEMENT_DIRS = /\/files\//;
 
-exports.BLOG_NAME = '莫欣的博客';
+exports.BLOG_NAME = '我的博客';
 
-exports.BLOG_OWNER = '莫欣';
+exports.BLOG_OWNER = 'ME';
 
-exports.BLOG_OWNER_EMAIL = 'maplemx@gmail.com';
+exports.BLOG_OWNER_EMAIL = 'example@gmail.com';
 
 exports.BLOG_LIST_ORDER = 'mtime';
 //name: order by file name;
@@ -25,9 +25,9 @@ exports.BLOG_LIST_ORDER = 'mtime';
 
 exports.BLOG_LIST_ORDER_DESC = true;
 
-exports.SUB_LIST_ORDER = 'ctime';//mtime desc default
+exports.SUB_LIST_ORDER = 'ctime';
 
-exports.SUB_LIST_ORDER_DESC = true;
+exports.SUB_LIST_ORDER_DESC = false;
 
 exports.CSS_URL = this.BLOG_ROOT_URL + 'css/';
 
