@@ -1,6 +1,6 @@
 {
   "name": "markdownblog",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "A markdown blog.",
   "main": "exports.js",
   "scripts": {

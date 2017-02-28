@@ -1,3 +1,3 @@
 const markdownblog = require('./exports');
 
-markdownblog.start('/Users/moxin/Dropbox/dev/blogs');
+markdownblog.start('/Your/Blog/Dir');

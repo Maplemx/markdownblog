@@ -39,8 +39,12 @@ function appendToApp (
     expressApp.use( setting.blogRootURI, setting.blogApp );
 }
 
+function setSetting (attribute, value) {
+    setting[attribute] = value;
+}
+
 function getSetting (attribute) {
     return setting[attribute];
 }
 
-module.exports = { start, getApp, appendToApp, getSetting, pathAnalysis, templateManager }
+module.exports = { start, getApp, appendToApp, setSetting, getSetting, pathAnalysis, templateManager }
