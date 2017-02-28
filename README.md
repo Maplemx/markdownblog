@@ -17,7 +17,7 @@ Just remember to modify your setting in file `setting.js`
     const markdownblog = require('markdownblog'),
           express = require('express');
     const app = express();
-    app.use('/blog',markdownblog.app);
+    app.use('/blog',markdownblog.getApp());
     app.use('/foo',bar);
     app.listen(80);
 ```
@@ -29,3 +29,7 @@ Email: [Maplemx@gmail.com](mailto:Maplemx@gmail.com)
 # GITHUB
 
 [https://github.com/Maplemx/markdownblog](https://github.com/Maplemx/markdownblog)
+
+# DEMO BLOG
+
+[My Blog](http//moxin.tech)!
