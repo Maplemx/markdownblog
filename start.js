@@ -1,9 +1,3 @@
-const express = require('express'),
-      app = express();
+const markdownblog = require('./exports');
 
-const setting = require('./setting'),
-      markdownblog = require('./lib/markdownblog');
-
-app.use(setting.BLOG_ROOT_URL, markdownblog);
-
-app.listen(setting.BLOG_PORT);
+markdownblog.start('/Users/moxin/Dropbox/dev/blogs');

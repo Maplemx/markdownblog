@@ -1,0 +1,85 @@
+.markdown-container {
+    margin: 1%;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+    .markdown-container h1 {
+        text-align: center;
+    }
+
+    .markdown-container h2 {
+        border-bottom: 1px #333 dashed;
+    }
+
+    .markdown-container h1,
+    .markdown-container h2,
+    .markdown-container h3,
+    .markdown-container h4,
+    .markdown-container h5 {
+        margin: 20px 0px 30px 0px;
+        font-weight: bolder;
+    }
+
+    .markdown-container ul, ol {
+        margin-left: 30px;
+        line-height: 200%;
+    }
+
+    .markdown-container p {
+        line-height: 200%;
+    }
+
+    .markdown-container code {
+        padding: 5px 1% 5px 1%;
+        margin: 10px 1% 10px 1%;
+        background: #333;
+        color: #EFEFEF;
+        border-radius: 5px;
+        font-family: Consolas, Menlo, Courier New !important;
+        overflow-x: auto;
+    }
+
+    .markdown-container pre code {
+        width: 96%;
+        display: inline-block;
+        word-wrap: normal;
+    }
+
+    .markdown-container blockquote {
+        border-left: 3px solid #AAA;
+        padding-left: 10px;
+        white-space: pre-wrap;
+    }
+
+    .markdown-container a {
+        color: rgb(100, 92, 255);
+    }
+
+    .markdown-container a:hover {
+        color: rgb(169, 161, 255);
+    }
+
+    .markdown-container table {
+        border-collapse: collapse;
+        width: 100%;
+        overflow-x: auto;
+        table-layout: fixed;
+    }
+
+    .markdown-container table th, .markdown-container table td {
+        min-width: 80px;
+        line-height: 150%;
+        padding: 10px;
+        border: 1px #333 solid;
+    }
+
+    .markdown-container table th {
+        background: #CCC;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .markdown-container table td {
+        background: #FFF;
+    }
