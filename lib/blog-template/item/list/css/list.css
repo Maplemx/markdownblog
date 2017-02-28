@@ -1,0 +1,25 @@
+.mdb-list {
+    text-align: left;
+}
+
+.mdb-list p {
+    font-size: 125%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mdb-list ul {
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.mdb-list ul li {
+    line-height: 44px;
+    font-size: 125%;
+    border-bottom: 1px dashed #AAA;
+}
+
+.mdb-list ul li:hover {
+    background: #FEFEFE;
+}
